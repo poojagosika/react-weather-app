@@ -10,10 +10,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-/* .weather-info
-{
 
-} */
 .weather-info > h2
 {
     color: #ffffff;
