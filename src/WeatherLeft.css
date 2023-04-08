@@ -1,0 +1,43 @@
+.weather-main
+{
+    padding: 10px;
+}
+
+.weather-left
+{
+    margin:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* .weather-info
+{
+
+} */
+.weather-info > h2
+{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.weather-info > p
+{
+    padding-top: 8px;
+}
+
+.weather-info-icon
+{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px 10px 10px 0px;
+}
+
+.weather-info-icon > i
+{
+    font-size: 28px;
+}
+
+.weather-info-icon > h3
+{
+    padding-left: 12px;
+}

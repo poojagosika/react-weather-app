@@ -1,0 +1,147 @@
+.weather-right
+{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.weather-right-top
+{
+    align-items: center;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.weather-search
+{
+    display: flex;
+    align-items: center;
+    background-color: #51ffab;
+    margin: 25px 0px;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.fa-magnifying-glass
+{
+    position: absolute;
+    padding: 15px 16px;
+    color: #5c94f5;
+    font-size: 24px;
+}
+
+input
+{
+    padding: 20px 50px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    background-color: #51ffab;
+}
+
+input::placeholder
+{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.weather-search > .fa-location-dot
+{
+    padding-right: 15px;
+    color: #5c94f5;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.weather-right-details
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #002f80dd;
+    border-radius: 24px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.weather-right-details-info
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px 0px;
+}
+.weather-right-details-info > .fa-location-dot
+{
+    color: white;
+    padding-right: 10px;
+}
+
+.weather-right-details-info > .fa-angle-down
+{
+    color: white;
+    padding-left: 10px;
+}
+
+.weather-details-info
+{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.weather-details-info > img
+{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.p4, .p6
+{
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.p5
+{
+    text-align: center;
+    font-size: 60px;
+    padding: 5px;
+}
+
+.weather-details-info-iphr
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 25px;
+}
+
+.weather-details-info-iphr > i
+{
+    padding-right: 5px;
+}
+.weather-details-info-iphr > p
+{
+    padding-right: 5px;
+}
+
+.weather-h1
+{
+
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
